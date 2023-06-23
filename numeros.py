@@ -19,13 +19,32 @@ print("divisao", divisao);
 print("resto", resto);
 print("potencia", potencia);
 
-#Arredodamento de número   
-numeroFloat =  3.14;
+#Arredondamento de número
+numeroFloat = 3.14;
 numeroArrendodado = round(numeroFloat);
-print("Arrendodamento: " ,numeroArrendodado);
+print("Arrendodamento: ", numeroArrendodado);
 
-#Funções matemáticas da biblioteca math 
+#Funcções matemáticas de biblioteca math 
 import math 
 
 num = 4.7;
-print  
+print("Funções matemáticas: ");
+print("Valor abosulto: ", abs(-4.7));
+print("Arredondamento pra cima", math.ceil(num));
+print("Arredondamento pra baixo", math.floor(num));
+
+#Geração números aleatórios
+import random
+print("Números aleatórios: ")
+print("Números aleatórios de 1 a 10", random.randint(1, 10));
+print("Números float aleatório entre 0 e 1", random.random())
+
+#Formatação de números
+
+numeroFormatado = 1234.56789;
+print("Formatação de números:");
+print("Número com 2 casas decimais{numeroFormatado:.2f}");
+print("Número formatado com 2 casas decimais {:.2f}".format(numeroFormatado))
+
+
+

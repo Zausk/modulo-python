@@ -46,5 +46,3 @@ print("Formatação de números:");
 print("Número com 2 casas decimais{numeroFormatado:.2f}");
 print("Número formatado com 2 casas decimais {:.2f}".format(numeroFormatado))
 
-
-

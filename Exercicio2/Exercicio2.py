@@ -56,16 +56,3 @@ print(cidadeRemovida);
 cidade.sort();
 
 print("Embaralhado ", cidade);
-
-
-
-
-
-
-
-
-
-
-
-
-

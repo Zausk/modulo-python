@@ -68,3 +68,4 @@ print();
 print("Chaves encontrados no dicionário", frutaDicionario.keys());
 print("Valores encontrados no dicionário: ", frutaDicionario.values());
 print(frutaDicionario.items());
+
